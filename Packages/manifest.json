@@ -1,6 +1,6 @@
 {
-  "dependencies": {
-    "com.ptc.vuforia.engine": "8.5.9",
+    "dependencies": {
+    "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-11.4.4.tgz",
     "com.unity.feature.development": "1.0.2",
     "com.unity.inputsystem": "1.17.0",
     "com.unity.learn.iet-framework": "5.0.2",
