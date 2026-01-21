@@ -1,4 +1,0 @@
-repository "AR Card Game/AR Card Game@13469775099216@cloud"
-  path "/"
-    br "/main"
-    co "/main"
