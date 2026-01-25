@@ -14,7 +14,12 @@ public class ARCardManager : MonoBehaviour
 
     public void RegisterCard(CardData card, Transform cardTransform)
     {
-        if (detectedCards.ContainsKey(card.CardID)) return;
+        if (detectedCards.ContainsKey(card.CardID))
+        {
+            Debug.Log("Card already registered: " + card.CardID);
+            Debug.Log($"Detected Card: {card.CardID} mapped to {card.CharacterID}");
+            return;
+        }
 
         detectedCards.Add(card.CardID, cardTransform);
 
