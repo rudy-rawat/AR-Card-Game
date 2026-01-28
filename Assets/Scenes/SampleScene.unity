@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16f67e21b8dfaf649871efb3fcee6318, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnSlot
-  SlotID: 
+  SlotID: B2
   OccupiedBy: {fileID: 0}
 --- !u!1 &531917840
 GameObject:
@@ -481,7 +481,7 @@ GameObject:
   - component: {fileID: 1002217858}
   - component: {fileID: 1002217857}
   m_Layer: 0
-  m_Name: Manager
+  m_Name: ARSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -499,7 +499,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d921b97680f95648ae15f00ad4ca8ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSpawnSystem
-  slots: []
+  slots:
+  - {fileID: 1391504829}
+  - {fileID: 1512832079}
+  - {fileID: 1066606284}
+  - {fileID: 311767093}
 --- !u!114 &1002217858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -584,7 +588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16f67e21b8dfaf649871efb3fcee6318, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnSlot
-  SlotID: 
+  SlotID: B1
   OccupiedBy: {fileID: 0}
 --- !u!1 &1075000274
 GameObject:
@@ -844,7 +848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16f67e21b8dfaf649871efb3fcee6318, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnSlot
-  SlotID: 
+  SlotID: A1
   OccupiedBy: {fileID: 0}
 --- !u!1 &1512832077
 GameObject:
@@ -890,7 +894,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16f67e21b8dfaf649871efb3fcee6318, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpawnSlot
-  SlotID: 
+  SlotID: A2
   OccupiedBy: {fileID: 0}
 --- !u!1 &2036835454
 GameObject:
@@ -971,13 +975,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: player1
+  mTrackableName: thefool
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/AR-CardGame.xml
-  mAspectRatio: 0.666667
+  mAspectRatio: 0.997283
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 0.666667
+  mHeight: 0.997283
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -1025,7 +1029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
   mObserverBehaviour: {fileID: 2036835456}
   mHiddenRoot: {fileID: 0}
-  mTargetName: player1
+  mTargetName: thefool
   mDatasetName: Vuforia/AR-CardGame.xml
   mCastedBehaviour: {fileID: 2036835456}
   mMeshFilter: {fileID: 0}
