@@ -13,6 +13,9 @@ public class ArenaAnchor : MonoBehaviour
     public void SetAnchor(Transform target)
     {
         ArenaRoot = target;
+        GetComponent<StableArenaAnchor>().LockAnchor(target);
         Debug.Log("Arena Anchor Set: " + target.name);
     }
+    
+    
 }
